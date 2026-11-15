@@ -1,0 +1,70 @@
+{
+  "profile_id": "synthetic_airless_v1",
+  "version": 1,
+  "display_name": "无气类合成喷头",
+  "mechanism_family": "airless",
+  "status": "synthetic design assumption; not a manufacturer preset or measured spray head",
+  "data_origin": "synthetic",
+  "provenance": "Hand-selected footprint parameters evaluated with the reconstructed EPS delta operator. Mechanism names organize candidate conditions; they do not implement atomization physics.",
+  "hardware_identity": null,
+  "calibrated": false,
+  "eps_native_scene_equivalence_verified": false,
+  "output_unit": "relative",
+  "intended_behavior": "thin elongated fan with flat core and sharp edges",
+  "assumptions": [
+    "All numerical parameters are project design choices, not manufacturer or physical measurements.",
+    "Common camera, sampling, flux scale and angular/distance rules isolate selected footprint-shape differences; integrated deposition is not normalized.",
+    "The fixed software flux scale is not a measured paint flow rate.",
+    "The common inverse-square and incidence rules are uncalibrated model assumptions for every family.",
+    "Only a local relative-deposition surrogate is provided; no full-mechanism or real-device equivalence is claimed."
+  ],
+  "not_modelled": [
+    "droplet breakup and size distribution",
+    "paint rheology, drying and sagging",
+    "electrostatic fields, wraparound and Faraday-cage effects",
+    "measured transfer efficiency or real fluid flow",
+    "solid tool geometry, TCP calibration and robot kinematics"
+  ],
+  "reconstruction": {
+    "camera_pixels": 64,
+    "atlas_texels_per_cell": 8,
+    "tick_interval_s": 0.05,
+    "pose_substeps": 1,
+    "fan_width_mm": 400,
+    "fan_height_mm": 400,
+    "near_plane_m": 0.001,
+    "far_plane_m": 0.6,
+    "max_ticks": 10000,
+    "max_runtime_s": 180,
+    "kernel_parameters": {
+      "SprayOkDistanceMeters": 0.3,
+      "EllipseAxisA": 0.95,
+      "EllipseAxisB": 0.18,
+      "Bifocality": 0,
+      "CrossStretch": 1,
+      "SoftEdgeRadiusSquared": 1.1,
+      "CoreUniformRadiusSquared": 0.7,
+      "CoreEdgeDrop": 0.12,
+      "OuterEdgeExponent": 3,
+      "TailWeight": 0.05,
+      "NearEllipseMinScale": 0.45,
+      "MaxIncidenceDeg": 85,
+      "IncidenceDropK": 0.65,
+      "FluxScale": 4,
+      "MaxDeltaPerHit": 1000,
+      "PaintBackFaces": false,
+      "UseSegmentDistance": false,
+      "CameraHalfWidthMeters": 0.2,
+      "CameraHalfHeightMeters": 0.2,
+      "SegmentHalfDeltaRightMeters": 0,
+      "SegmentHalfDeltaUpMeters": 0,
+      "BaseFanHalfWidthMeters": 0.2,
+      "BaseFanHalfHeightMeters": 0.2
+    }
+  },
+  "fidelity_limits": [
+    "82 archived original-library cases validate only those historical operator inputs; these new profiles have no new original-DLL reference.",
+    "Full native EPS scene equivalence is unverified.",
+    "All dimensions and intensity parameters are hypothetical; output is not micrometre film thickness."
+  ]
+}

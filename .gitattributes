@@ -1,0 +1,2 @@
+# Preserve the exact deployed and frozen bytes in SHA256SUMS.txt.
+* -text whitespace=cr-at-eol

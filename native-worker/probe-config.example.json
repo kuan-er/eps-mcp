@@ -1,0 +1,17 @@
+{
+  "AllowedWorkRoot": "C:\\EPS-Worker",
+  "AllowedSolutions": [
+    {
+      "ProgramName": "NativeBenchmark.XPL",
+      "Path": "C:\\EPS-Worker\\Project\\Solutions\\NativeSprayTarget.cmasln",
+      "PieceName": "NativeSprayTarget.obj"
+    },
+    {
+      "ProgramName": "NativeBenchmarkOff.XPL",
+      "Path": "C:\\EPS-Worker\\Project\\Solutions\\NativeSprayTargetOff.cmasln",
+      "PieceName": "NativeSprayTarget.obj"
+    }
+  ],
+  "OutputRoot": "C:\\EPS-Worker\\Bridge",
+  "AllowedProjectFolder": "C:\\EPS-Worker\\Project"
+}

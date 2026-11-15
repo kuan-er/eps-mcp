@@ -1,0 +1,313 @@
+{
+  "scope": "CUDA raster visibility, UV addressing and integer hit aggregation; existing host pose sampling, ComputeDelta and final accumulation.",
+  "reference_scope": "Saved raw native EPS and CPU grids; the same recorded motion is replayed on CPU and CUDA, with the reconstructed sampling clock.",
+  "camera_pixels": 64,
+  "tick_interval_s": 0.05,
+  "results": [
+    {
+      "run": "run_1",
+      "cuda_kernel_launches": 0,
+      "cuda_raster_hits_differences_vs_cpu": [],
+      "cpu_vs_saved_cpu": {
+        "exact_match": true,
+        "shape": [
+          512,
+          512
+        ],
+        "different_texels": 0,
+        "reference_total": 0,
+        "candidate_total": 0,
+        "max_abs_difference": 0,
+        "first_difference": null
+      },
+      "cuda_vs_cpu": {
+        "exact_match": true,
+        "shape": [
+          512,
+          512
+        ],
+        "different_texels": 0,
+        "reference_total": 0,
+        "candidate_total": 0,
+        "max_abs_difference": 0,
+        "first_difference": null
+      },
+      "cuda_vs_native_eps": {
+        "exact_match": true,
+        "shape": [
+          512,
+          512
+        ],
+        "different_texels": 0,
+        "reference_total": 0,
+        "candidate_total": 0,
+        "max_abs_difference": 0,
+        "first_difference": null
+      },
+      "cpu_wall_seconds": 0.002823157934471965,
+      "cuda_hybrid_wall_seconds": 0.001993830082938075,
+      "cuda_vs_windows_cuda": {
+        "exact_match": true,
+        "shape": [
+          512,
+          512
+        ],
+        "different_texels": 0,
+        "reference_total": 0,
+        "candidate_total": 0,
+        "max_abs_difference": 0,
+        "first_difference": null
+      }
+    },
+    {
+      "run": "run_2",
+      "cuda_kernel_launches": 5,
+      "cuda_raster_hits_differences_vs_cpu": [],
+      "cpu_vs_saved_cpu": {
+        "exact_match": true,
+        "shape": [
+          512,
+          512
+        ],
+        "different_texels": 0,
+        "reference_total": 98114,
+        "candidate_total": 98114,
+        "max_abs_difference": 0,
+        "first_difference": null
+      },
+      "cuda_vs_cpu": {
+        "exact_match": true,
+        "shape": [
+          512,
+          512
+        ],
+        "different_texels": 0,
+        "reference_total": 98114,
+        "candidate_total": 98114,
+        "max_abs_difference": 0,
+        "first_difference": null
+      },
+      "cuda_vs_native_eps": {
+        "exact_match": false,
+        "shape": [
+          512,
+          512
+        ],
+        "different_texels": 52226,
+        "reference_total": 1114055,
+        "candidate_total": 98114,
+        "max_abs_difference": 77,
+        "first_difference": {
+          "v_row": 8,
+          "u_column": 241,
+          "reference": 1,
+          "candidate": 0
+        }
+      },
+      "cpu_wall_seconds": 0.019314835080876946,
+      "cuda_hybrid_wall_seconds": 0.02648324309848249,
+      "cuda_vs_windows_cuda": {
+        "exact_match": true,
+        "shape": [
+          512,
+          512
+        ],
+        "different_texels": 0,
+        "reference_total": 98114,
+        "candidate_total": 98114,
+        "max_abs_difference": 0,
+        "first_difference": null
+      }
+    },
+    {
+      "run": "run_3",
+      "cuda_kernel_launches": 0,
+      "cuda_raster_hits_differences_vs_cpu": [],
+      "cpu_vs_saved_cpu": {
+        "exact_match": true,
+        "shape": [
+          512,
+          512
+        ],
+        "different_texels": 0,
+        "reference_total": 0,
+        "candidate_total": 0,
+        "max_abs_difference": 0,
+        "first_difference": null
+      },
+      "cuda_vs_cpu": {
+        "exact_match": true,
+        "shape": [
+          512,
+          512
+        ],
+        "different_texels": 0,
+        "reference_total": 0,
+        "candidate_total": 0,
+        "max_abs_difference": 0,
+        "first_difference": null
+      },
+      "cuda_vs_native_eps": {
+        "exact_match": true,
+        "shape": [
+          512,
+          512
+        ],
+        "different_texels": 0,
+        "reference_total": 0,
+        "candidate_total": 0,
+        "max_abs_difference": 0,
+        "first_difference": null
+      },
+      "cpu_wall_seconds": 0.0017673890106379986,
+      "cuda_hybrid_wall_seconds": 0.0016618308145552874,
+      "cuda_vs_windows_cuda": {
+        "exact_match": true,
+        "shape": [
+          512,
+          512
+        ],
+        "different_texels": 0,
+        "reference_total": 0,
+        "candidate_total": 0,
+        "max_abs_difference": 0,
+        "first_difference": null
+      }
+    },
+    {
+      "run": "run_4",
+      "cuda_kernel_launches": 3,
+      "cuda_raster_hits_differences_vs_cpu": [],
+      "cpu_vs_saved_cpu": {
+        "exact_match": true,
+        "shape": [
+          512,
+          512
+        ],
+        "different_texels": 0,
+        "reference_total": 52906,
+        "candidate_total": 52906,
+        "max_abs_difference": 0,
+        "first_difference": null
+      },
+      "cuda_vs_cpu": {
+        "exact_match": true,
+        "shape": [
+          512,
+          512
+        ],
+        "different_texels": 0,
+        "reference_total": 52906,
+        "candidate_total": 52906,
+        "max_abs_difference": 0,
+        "first_difference": null
+      },
+      "cuda_vs_native_eps": {
+        "exact_match": false,
+        "shape": [
+          512,
+          512
+        ],
+        "different_texels": 16706,
+        "reference_total": 621526,
+        "candidate_total": 52906,
+        "max_abs_difference": 63,
+        "first_difference": {
+          "v_row": 15,
+          "u_column": 235,
+          "reference": 1,
+          "candidate": 0
+        }
+      },
+      "cpu_wall_seconds": 0.012093147030100226,
+      "cuda_hybrid_wall_seconds": 0.012622626032680273,
+      "cuda_vs_windows_cuda": {
+        "exact_match": true,
+        "shape": [
+          512,
+          512
+        ],
+        "different_texels": 0,
+        "reference_total": 52906,
+        "candidate_total": 52906,
+        "max_abs_difference": 0,
+        "first_difference": null
+      }
+    },
+    {
+      "run": "run_5",
+      "cuda_kernel_launches": 5,
+      "cuda_raster_hits_differences_vs_cpu": [],
+      "cpu_vs_saved_cpu": {
+        "exact_match": true,
+        "shape": [
+          512,
+          512
+        ],
+        "different_texels": 0,
+        "reference_total": 86768,
+        "candidate_total": 86768,
+        "max_abs_difference": 0,
+        "first_difference": null
+      },
+      "cuda_vs_cpu": {
+        "exact_match": true,
+        "shape": [
+          512,
+          512
+        ],
+        "different_texels": 0,
+        "reference_total": 86768,
+        "candidate_total": 86768,
+        "max_abs_difference": 0,
+        "first_difference": null
+      },
+      "cuda_vs_native_eps": {
+        "exact_match": false,
+        "shape": [
+          512,
+          512
+        ],
+        "different_texels": 49774,
+        "reference_total": 1270648,
+        "candidate_total": 86768,
+        "max_abs_difference": 104,
+        "first_difference": {
+          "v_row": 10,
+          "u_column": 241,
+          "reference": 4,
+          "candidate": 0
+        }
+      },
+      "cpu_wall_seconds": 0.0188168128952384,
+      "cuda_hybrid_wall_seconds": 0.02017259504646063,
+      "cuda_vs_windows_cuda": {
+        "exact_match": true,
+        "shape": [
+          512,
+          512
+        ],
+        "different_texels": 0,
+        "reference_total": 86768,
+        "candidate_total": 86768,
+        "max_abs_difference": 0,
+        "first_difference": null
+      }
+    }
+  ],
+  "hardware": {
+    "device": "NVIDIA A100-SXM4-80GB",
+    "compute_capability": [
+      8,
+      0
+    ],
+    "cuda_driver_api_version": 13000,
+    "nvrtc": "12.1",
+    "kernel_source_sha256": "a22f0331cd1855d8bc93d093593967444e7e8523e6cc07886369b0301e8eb525"
+  },
+  "occlusion_control": {
+    "visible_pixels": 512,
+    "cpu_vs_cuda_hit_fields_different": [],
+    "adding_fully_occluded_face_changes_cuda": false
+  }
+}

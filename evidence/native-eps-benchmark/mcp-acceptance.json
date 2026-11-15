@@ -1,0 +1,58 @@
+{
+  "scope": "Windows native EPS startup, solution loading, simulation, OpenUSD export and MCP result readback",
+  "gun_off_same_motion_verified": true,
+  "off": {
+    "case_id": "case-c06f048ae58349e7b6ed78c7ca14e238",
+    "run_id": "run-27e6c717aca54ad4ad3878b531a3fb8f",
+    "backend": "eps_native_scene",
+    "shape": [
+      512,
+      512
+    ],
+    "nonzero_texels": 0,
+    "raw_sum": 0,
+    "raw_sha256": "8144efbe6d99d2d6301ff5ea9f05072f9beaaa20c991a6a20609bcb300a915e7",
+    "usd_sha256": "3de0d706260f4b5f9c2fccb8bfb678e8433342c479ae2b8c7478f221daa9b788"
+  },
+  "on": {
+    "case_id": "case-b263f1daea1f403c9119bbdc22cc3890",
+    "run_id": "run-92075d0059274c2cb2030196f416a861",
+    "backend": "eps_native_scene",
+    "shape": [
+      512,
+      512
+    ],
+    "nonzero_texels": 31197,
+    "raw_sum": 437590,
+    "raw_sha256": "b25ec5f42eafe0e6d5b9bc4b43d82d2090169786842c22ca11a4b42bab969aec",
+    "usd_sha256": "0bcc984ae1bd15a892dc2b3287904b924112526119b3e61c6632aa67999e1266"
+  },
+  "repeat": {
+    "case_id": "case-b263f1daea1f403c9119bbdc22cc3890",
+    "run_id": "run-e06e4d933bf94e60bcef7b100ec283f6",
+    "backend": "eps_native_scene",
+    "shape": [
+      512,
+      512
+    ],
+    "nonzero_texels": 40347,
+    "raw_sum": 1261281,
+    "raw_sha256": "d45378c5c3d3038b2ed3ed4b405c84a2a98085085eb8c1748f84121ff79a580b",
+    "usd_sha256": "a04fc05b53280867eb12fff23e2f2455fc50ec4afe105079c4fe3df0dd9283a4"
+  },
+  "cpu_reference_regression": {
+    "case_id": "case-1be1d3c0545d4888a2e925e28d8b090e",
+    "run_id": "run-ee4c49fad71a4d3ab35aed261b55ccf4",
+    "backend": "cpu_reference",
+    "shape": [
+      16,
+      16
+    ],
+    "nonzero_texels": 72,
+    "raw_sum": 18491,
+    "raw_sha256": "9c3b72f1a63c8595ecefc491a61894ed4cd969d3b8476736ce34a4661374f82f"
+  },
+  "repeat_different_texels": 65112,
+  "repeat_relative_l2": 2.9428470090199976,
+  "native_vs_cpu_numerical_equivalence_verified": false
+}

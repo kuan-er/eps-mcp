@@ -1,0 +1,268 @@
+{
+  "results": [
+    {
+      "label": "run_1",
+      "scene_id": "native_spray_target",
+      "case_id": "case-43d6e5d934d24923b2c0e8f57f4b5951",
+      "run_id": "run-fb3ec533b3164ca9a7a073216854374d",
+      "native": {
+        "shape": [
+          512,
+          512
+        ],
+        "sum": 0,
+        "nonzero": 0,
+        "peak": 0
+      },
+      "cpu_default": {
+        "shape": [
+          16,
+          16
+        ],
+        "sum": 0,
+        "nonzero": 0,
+        "peak": 0
+      },
+      "cpu_uv512": {
+        "shape": [
+          512,
+          512
+        ],
+        "sum": 0,
+        "nonzero": 0,
+        "peak": 0
+      },
+      "diagnostic_comparison": {
+        "different_texels": 0,
+        "relative_l2_vs_native": null,
+        "support_iou": null,
+        "normalized_mass_distance": null
+      },
+      "visible_spray_seconds": 0,
+      "recorded_pose_count": 4,
+      "cpu_ticks_on": 0,
+      "native_paint_journal_frames": 1,
+      "native_baseline_zero": true,
+      "cpu_forced_off_sum": 0,
+      "usd_sha256": "f15acbbc7719578f8f5f2285ffecfcceef38667af20a102b07d3771faf4b1876"
+    },
+    {
+      "label": "run_2",
+      "scene_id": "native_spray_target",
+      "case_id": "case-43d6e5d934d24923b2c0e8f57f4b5951",
+      "run_id": "run-a9db28b93dff4e959bcb723b00133a4a",
+      "native": {
+        "shape": [
+          512,
+          512
+        ],
+        "sum": 1114055,
+        "nonzero": 50399,
+        "peak": 77
+      },
+      "cpu_default": {
+        "shape": [
+          16,
+          16
+        ],
+        "sum": 2800,
+        "nonzero": 54,
+        "peak": 90
+      },
+      "cpu_uv512": {
+        "shape": [
+          512,
+          512
+        ],
+        "sum": 98114,
+        "nonzero": 4268,
+        "peak": 72
+      },
+      "diagnostic_comparison": {
+        "different_texels": 52226,
+        "relative_l2_vs_native": 0.9992654563167178,
+        "support_iou": 0.04623834950527263,
+        "normalized_mass_distance": 0.9446611128209879
+      },
+      "visible_spray_seconds": 0.23994060000000006,
+      "recorded_pose_count": 10,
+      "cpu_ticks_on": 5,
+      "native_paint_journal_frames": 8,
+      "native_baseline_zero": true,
+      "cpu_forced_off_sum": 0,
+      "usd_sha256": "16e8d985bda8cd08613131fc481278f129495d378e80e9a4fb968ecabd2c3884"
+    },
+    {
+      "label": "run_3",
+      "scene_id": "native_spray_target_off",
+      "case_id": "case-7dea7dfcee624acf89369474a74d9070",
+      "run_id": "run-879e7523d8c64e46ad3cd936917fb51c",
+      "native": {
+        "shape": [
+          512,
+          512
+        ],
+        "sum": 0,
+        "nonzero": 0,
+        "peak": 0
+      },
+      "cpu_default": {
+        "shape": [
+          16,
+          16
+        ],
+        "sum": 0,
+        "nonzero": 0,
+        "peak": 0
+      },
+      "cpu_uv512": {
+        "shape": [
+          512,
+          512
+        ],
+        "sum": 0,
+        "nonzero": 0,
+        "peak": 0
+      },
+      "diagnostic_comparison": {
+        "different_texels": 0,
+        "relative_l2_vs_native": null,
+        "support_iou": null,
+        "normalized_mass_distance": null
+      },
+      "visible_spray_seconds": 0,
+      "recorded_pose_count": 4,
+      "cpu_ticks_on": 0,
+      "native_paint_journal_frames": 1,
+      "native_baseline_zero": true,
+      "cpu_forced_off_sum": 0,
+      "usd_sha256": "cf57ac7a0690a7b20549586bf0b24ed19f4486841bf118229f086b413426014c"
+    },
+    {
+      "label": "run_4",
+      "scene_id": "native_spray_target",
+      "case_id": "case-21d2a437fce042a6a16c5b788d7b6303",
+      "run_id": "run-d7aff490ba5d4b5aacf98c512db860a4",
+      "native": {
+        "shape": [
+          512,
+          512
+        ],
+        "sum": 621526,
+        "nonzero": 14130,
+        "peak": 63
+      },
+      "cpu_default": {
+        "shape": [
+          16,
+          16
+        ],
+        "sum": 1526,
+        "nonzero": 52,
+        "peak": 54
+      },
+      "cpu_uv512": {
+        "shape": [
+          512,
+          512
+        ],
+        "sum": 52906,
+        "nonzero": 3272,
+        "peak": 36
+      },
+      "diagnostic_comparison": {
+        "different_texels": 16706,
+        "relative_l2_vs_native": 0.9969124346962978,
+        "support_iou": 0.04135000897612351,
+        "normalized_mass_distance": 0.9461289171408047
+      },
+      "visible_spray_seconds": 0.18016999999999994,
+      "recorded_pose_count": 9,
+      "cpu_ticks_on": 3,
+      "native_paint_journal_frames": 5,
+      "native_baseline_zero": true,
+      "cpu_forced_off_sum": 0,
+      "usd_sha256": "040307e799ecbc3390b1bce6e7c7e6a5cef3db16d0018055721caec66875f45a"
+    },
+    {
+      "label": "run_5",
+      "scene_id": "native_spray_target",
+      "case_id": "case-b73deb711b284a81ab5da81a2cdaad52",
+      "run_id": "run-71636b5eed224855b7f6b72f6f196911",
+      "native": {
+        "shape": [
+          512,
+          512
+        ],
+        "sum": 1270648,
+        "nonzero": 48281,
+        "peak": 104
+      },
+      "cpu_default": {
+        "shape": [
+          16,
+          16
+        ],
+        "sum": 2534,
+        "nonzero": 58,
+        "peak": 90
+      },
+      "cpu_uv512": {
+        "shape": [
+          512,
+          512
+        ],
+        "sum": 86768,
+        "nonzero": 4006,
+        "peak": 36
+      },
+      "diagnostic_comparison": {
+        "different_texels": 49774,
+        "relative_l2_vs_native": 0.9921263401079059,
+        "support_iou": 0.04998192698501948,
+        "normalized_mass_distance": 0.9389968481315356
+      },
+      "visible_spray_seconds": 0.24001019999999995,
+      "recorded_pose_count": 10,
+      "cpu_ticks_on": 5,
+      "native_paint_journal_frames": 10,
+      "native_baseline_zero": true,
+      "cpu_forced_off_sum": 0,
+      "usd_sha256": "9c9290c2c13039468e1f518161427490d74e05b726ff2710111971223fbad2c7"
+    }
+  ],
+  "native_on_same_program_sha256": "f1d582542f00882e04dd16f16f87a7c4048e32d2c939fdcd4bca37a96f5cf251",
+  "native_on_arrays_identical": false,
+  "cpu_reference_profile_sha256": "8249fe33e7a834137ce0c9ef6d41c089073e82e605450a90e24de4649dbdd80a",
+  "matched_project_parameters": {
+    "FluxScale": 10,
+    "MaxDeltaPerHit": 18,
+    "Bifocality": 0,
+    "CrossStretch": 1,
+    "NearEllipseMinScale": 0.45,
+    "SoftEdgeRadiusSquared": 1.4,
+    "CoreUniformRadiusSquared": 0.7,
+    "CoreEdgeDrop": 0.12,
+    "OuterEdgeExponent": 2,
+    "TailWeight": 0.22,
+    "IncidenceDropK": 0.65,
+    "MaxIncidenceDeg": 85,
+    "PaintBackFaces": true,
+    "SprayOkDistanceMeters": 0.3
+  },
+  "cpu_camera": {
+    "camera_pixels": 64,
+    "fan_width_mm": 200,
+    "fan_height_mm": 200,
+    "near_plane_m": 0.001,
+    "far_plane_m": 0.6
+  },
+  "cpu_tick_interval_s": 0.05,
+  "method": {
+    "inputs": "same OBJ triangles, world transform, UVs, recorded spray pose and visibility and shared project spray parameters",
+    "unavailable": "native runtime camera/rasterizer parameters, unsampled in-between poses, exact internal spray sampling times",
+    "diagnostic_grid": "CPU engine offline with 512x512 UV accumulator, unchanged CPU camera and clock",
+    "recorded_motion": "OpenUSD time samples; visible spray proxy, piecewise linear CPU interpolation"
+  },
+  "strict_full_scene_equivalence_established": false
+}

@@ -1,0 +1,50 @@
+{
+  "scope": "Staged delivery, existing Python environments, fresh local CPU run directory",
+  "eps": {
+    "tools": [
+      "eps_disk_project",
+      "eps_live_gun",
+      "eps_status",
+      "eps_window_screenshot"
+    ],
+    "disk_project_hash_matches": true,
+    "disk_project_sha256": "046F7DFBBC5D381FEDA3AA3B6E20E0060AD86F461D881B36A10B3C5BE4014556",
+    "gun_count": 1,
+    "gui_tools_exercised": false
+  },
+  "eps_reconstruction": {
+    "tools": [
+      "generate_trajectory",
+      "get_result",
+      "prepare_case",
+      "prepare_native_scene",
+      "run_simulation"
+    ],
+    "cpu": {
+      "shape": [
+        16,
+        16
+      ],
+      "on_raw_sum": 18491,
+      "on_nonzero_texels": 72,
+      "off_raw_sum": 0,
+      "repeat_array_equal": true,
+      "get_result_integrity_verified": true
+    },
+    "native_scene_prepared": {
+      "native_spray_target": {
+        "project": "d51f9f50c6c1e42ee7e7e90dfdacda167fb6b27838d346113953d21290f246ef",
+        "solution": "a013806b407027399267471d6f913723ef10a41748483d8ffe2b5e77a2a58b81",
+        "program": "f1d582542f00882e04dd16f16f87a7c4048e32d2c939fdcd4bca37a96f5cf251",
+        "mesh": "21d880be83f417e7268f68908084ab69efce0fc1a43bb0ab5814848643d9dbf1"
+      },
+      "native_spray_target_off": {
+        "project": "d51f9f50c6c1e42ee7e7e90dfdacda167fb6b27838d346113953d21290f246ef",
+        "solution": "37c22115bf127b864ba2f9645321e95f4805b95705a025546fbc9d1c26a1b958",
+        "program": "59310550f9d3b77734c61e355b9027cd10caa7c37f9efdd80a0599127010dd94",
+        "mesh": "21d880be83f417e7268f68908084ab69efce0fc1a43bb0ab5814848643d9dbf1"
+      }
+    },
+    "native_execution_repeated": false
+  }
+}

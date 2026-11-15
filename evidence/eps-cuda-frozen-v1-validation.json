@@ -1,0 +1,361 @@
+{
+  "version": "eps-cuda-frozen-v1",
+  "scope": "RTX 2080 Ti CUDA replay against captured EPS orthographic camera inputs and integer deposition grids",
+  "source_sha256": {
+    "raster_hits.cu": "a683b45e34d8d8daaa9f6c4acdc3f1971008abd837f31c8e5a71891b5335cbf2",
+    "run_cuda_demo.py": "df080cb0e584455e772a93db9a0bb61ce8a92e7a86f5d97205050acf90f9964a"
+  },
+  "deposition_sha256": "913245c3ab00a6ded6ae42c5230e4f85f229c5deb115d18f1fab075a33b49dc2",
+  "device": {
+    "device": "NVIDIA GeForce RTX 2080 Ti",
+    "compute_capability": [
+      7,
+      5
+    ],
+    "cuda_driver_api_version": 12060,
+    "nvrtc": "12.6",
+    "kernel_source_sha256": "a683b45e34d8d8daaa9f6c4acdc3f1971008abd837f31c8e5a71891b5335cbf2"
+  },
+  "suites": {
+    "contact": {
+      "count": 192,
+      "nonzero_reference_grid": 146,
+      "coverage_exact": 192,
+      "standalone_grid_exact": 190,
+      "standalone_grid_exact_with_nonzero_reference": 144,
+      "standalone_different_texels": 4,
+      "standalone_maximum_texel_error": 18,
+      "standalone_raster_different_texel_addresses": 4,
+      "standalone_raster_different_position_pixels": 101,
+      "standalone_raster_different_normal_pixels": 14,
+      "native_raster_to_cuda_hits_exact": 192,
+      "native_raster_to_final_grid_exact": 192,
+      "plan_sha256": "89c6581550844cecc71d7756d83fd9ecb000e5dd9afeb7a42d2c6187c51901cf",
+      "receipt_sha256": "64cd2ecc12a73b46419075afbff61fd24e3ee71ede455672ff3cee4cafc59493"
+    },
+    "new-double": {
+      "count": 192,
+      "nonzero_reference_grid": 154,
+      "coverage_exact": 192,
+      "standalone_grid_exact": 192,
+      "standalone_grid_exact_with_nonzero_reference": 154,
+      "standalone_different_texels": 0,
+      "standalone_maximum_texel_error": 0,
+      "standalone_raster_different_texel_addresses": 0,
+      "standalone_raster_different_position_pixels": 17,
+      "standalone_raster_different_normal_pixels": 3,
+      "native_raster_to_cuda_hits_exact": 192,
+      "native_raster_to_final_grid_exact": 192,
+      "plan_sha256": "dff6a0eb862253a639282ea0bd97ddda9a1e11830f7948acd65b235e65482c7a",
+      "receipt_sha256": "a5757d59cc3f341b1ffb219e64e19997a0e0d5916763644daf62958352e6caaa"
+    },
+    "double": {
+      "count": 144,
+      "nonzero_reference_grid": 110,
+      "coverage_exact": 144,
+      "standalone_grid_exact": 141,
+      "standalone_grid_exact_with_nonzero_reference": 107,
+      "standalone_different_texels": 5,
+      "standalone_maximum_texel_error": 18,
+      "standalone_raster_different_texel_addresses": 4,
+      "standalone_raster_different_position_pixels": 35,
+      "standalone_raster_different_normal_pixels": 2,
+      "native_raster_to_cuda_hits_exact": 144,
+      "native_raster_to_final_grid_exact": 144,
+      "plan_sha256": "142a8d6c904356b18c41197d650691623adf212851a96851904ea895ca394fea",
+      "receipt_sha256": "2224e7db29d3d85bae16f351eece09c20ab14896dddb820d5fe9358699803d4a"
+    },
+    "skew": {
+      "count": 144,
+      "nonzero_reference_grid": 124,
+      "coverage_exact": 144,
+      "standalone_grid_exact": 144,
+      "standalone_grid_exact_with_nonzero_reference": 124,
+      "standalone_different_texels": 0,
+      "standalone_maximum_texel_error": 0,
+      "standalone_raster_different_texel_addresses": 0,
+      "standalone_raster_different_position_pixels": 22,
+      "standalone_raster_different_normal_pixels": 4,
+      "native_raster_to_cuda_hits_exact": 144,
+      "native_raster_to_final_grid_exact": 144,
+      "plan_sha256": "e7898f5e74fb068091be9f1a61bdc7e8908b0bb37e145521a546e9ebf784d990",
+      "receipt_sha256": "0e3814bdf6c41969c40b7db90f4ac53200116ff318fc85a60a85fba2c7726c37"
+    },
+    "tight": {
+      "count": 192,
+      "nonzero_reference_grid": 111,
+      "coverage_exact": 192,
+      "standalone_grid_exact": 192,
+      "standalone_grid_exact_with_nonzero_reference": 111,
+      "standalone_different_texels": 0,
+      "standalone_maximum_texel_error": 0,
+      "standalone_raster_different_texel_addresses": 34,
+      "standalone_raster_different_position_pixels": 2670,
+      "standalone_raster_different_normal_pixels": 169,
+      "native_raster_to_cuda_hits_exact": 192,
+      "native_raster_to_final_grid_exact": 192,
+      "plan_sha256": "f103436f29b0877379d5120847321952d7071a7b09ff0c4673117f3ac13f1a9d",
+      "receipt_sha256": "69d607a2e15ea0a9ed388e0880d5f1b154d4497a890e7be836f5ae25707dba18"
+    },
+    "single": {
+      "count": 128,
+      "nonzero_reference_grid": 128,
+      "coverage_exact": 128,
+      "standalone_grid_exact": 128,
+      "standalone_grid_exact_with_nonzero_reference": 128,
+      "standalone_different_texels": 0,
+      "standalone_maximum_texel_error": 0,
+      "standalone_raster_different_texel_addresses": 0,
+      "standalone_raster_different_position_pixels": 3,
+      "standalone_raster_different_normal_pixels": 6,
+      "native_raster_to_cuda_hits_exact": 128,
+      "native_raster_to_final_grid_exact": 128,
+      "plan_sha256": "579d421f61acd11faf66f25ee5d4f6d32641c62bc4ea70a36ddd28877c734d14",
+      "receipt_sha256": "39610ead077cb5c591042f41326a9ca3cb3962549a1fc514ad41645dafd975af"
+    },
+    "stress": {
+      "count": 128,
+      "nonzero_reference_grid": 128,
+      "coverage_exact": 128,
+      "standalone_grid_exact": 126,
+      "standalone_grid_exact_with_nonzero_reference": 126,
+      "standalone_different_texels": 3,
+      "standalone_maximum_texel_error": 2,
+      "standalone_raster_different_texel_addresses": 1,
+      "standalone_raster_different_position_pixels": 25,
+      "standalone_raster_different_normal_pixels": 27,
+      "native_raster_to_cuda_hits_exact": 128,
+      "native_raster_to_final_grid_exact": 128,
+      "plan_sha256": "1e4102fa0e7cd9d81009ca3403705ee31724a196521fa94e046ac351515b5bdc",
+      "receipt_sha256": "bce2f639dc388905c0c694cf6e01518fb318ec3dba498c970a262b0b35f052ff"
+    },
+    "wide": {
+      "count": 288,
+      "nonzero_reference_grid": 279,
+      "coverage_exact": 288,
+      "standalone_grid_exact": 288,
+      "standalone_grid_exact_with_nonzero_reference": 279,
+      "standalone_different_texels": 0,
+      "standalone_maximum_texel_error": 0,
+      "standalone_raster_different_texel_addresses": 1,
+      "standalone_raster_different_position_pixels": 169,
+      "standalone_raster_different_normal_pixels": 31,
+      "native_raster_to_cuda_hits_exact": 288,
+      "native_raster_to_final_grid_exact": 288,
+      "plan_sha256": "33563a7c8fedbe8d797eccd591abb09c5f5ad947c67ea7e7e2b143d8b3ba4c2c",
+      "receipt_sha256": "b73e8f31cb38d6f1f556bb10adf168a2043e1348d3266e5ae0d26bb1c4c7fed4"
+    },
+    "second": {
+      "count": 128,
+      "nonzero_reference_grid": 123,
+      "coverage_exact": 128,
+      "standalone_grid_exact": 128,
+      "standalone_grid_exact_with_nonzero_reference": 123,
+      "standalone_different_texels": 0,
+      "standalone_maximum_texel_error": 0,
+      "standalone_raster_different_texel_addresses": 0,
+      "standalone_raster_different_position_pixels": 65,
+      "standalone_raster_different_normal_pixels": 15,
+      "native_raster_to_cuda_hits_exact": 128,
+      "native_raster_to_final_grid_exact": 128,
+      "plan_sha256": "ab15f6b04b105084d0a84c09f4a5dbd3a40fef49399db6b5f5790a06c1ef418a",
+      "receipt_sha256": "33cee4e84ffbbce51fbecca6fcb6b4964bd3f824888915a6f304475cbefbc115"
+    },
+    "principled": {
+      "count": 64,
+      "nonzero_reference_grid": 64,
+      "coverage_exact": 64,
+      "standalone_grid_exact": 64,
+      "standalone_grid_exact_with_nonzero_reference": 64,
+      "standalone_different_texels": 0,
+      "standalone_maximum_texel_error": 0,
+      "standalone_raster_different_texel_addresses": 0,
+      "standalone_raster_different_position_pixels": 2,
+      "standalone_raster_different_normal_pixels": 5,
+      "native_raster_to_cuda_hits_exact": 64,
+      "native_raster_to_final_grid_exact": 64,
+      "plan_sha256": "a7811653b6bd9e30ce7a5673ee8f12db1ac63f3bbea00447b5c2c990e6eb2623",
+      "receipt_sha256": "fc0d1fea52beed1c3a7be2bd15f28a527dd6ff3f2a0d784c80588d2404f55e76"
+    },
+    "tiny": {
+      "count": 16,
+      "nonzero_reference_grid": 16,
+      "coverage_exact": 16,
+      "standalone_grid_exact": 16,
+      "standalone_grid_exact_with_nonzero_reference": 16,
+      "standalone_different_texels": 0,
+      "standalone_maximum_texel_error": 0,
+      "standalone_raster_different_texel_addresses": 4,
+      "standalone_raster_different_position_pixels": 36,
+      "standalone_raster_different_normal_pixels": 1,
+      "native_raster_to_cuda_hits_exact": 16,
+      "native_raster_to_final_grid_exact": 16,
+      "plan_sha256": "87923a7c6fe2abaff538e09894840ffc2b0eb93036fbb3108ddaae5faccfd02b",
+      "receipt_sha256": "18842dec6f48102ce708374646992e68220cdbf28594811d1252f5f43fe4af3c"
+    }
+  },
+  "totals": {
+    "count": 1616,
+    "nonzero_reference_grid": 1383,
+    "coverage_exact": 1616,
+    "standalone_grid_exact": 1609,
+    "standalone_grid_exact_with_nonzero_reference": 1376,
+    "standalone_different_texels": 12,
+    "standalone_maximum_texel_error": 18,
+    "standalone_raster_different_texel_addresses": 48,
+    "standalone_raster_different_position_pixels": 3145,
+    "standalone_raster_different_normal_pixels": 277,
+    "native_raster_to_cuda_hits_exact": 1616,
+    "native_raster_to_final_grid_exact": 1616
+  },
+  "controlled_c30_replay": {
+    "0": {
+      "exact_steps": 16,
+      "steps": 16,
+      "accumulated_exact": true,
+      "receipt_sha256": "b59e6005f32bef3d6ec819b66f7e759234e1c347a378bc1569266998662ab992"
+    },
+    "10": {
+      "exact_steps": 16,
+      "steps": 16,
+      "accumulated_exact": true,
+      "receipt_sha256": "4f66d43e3eb926083498c72345e8b0aa6303e02a0202da508da4210dbfd456ac"
+    }
+  },
+  "differing_cases": [
+    {
+      "suite": "contact",
+      "label": "plane_far_contact_14",
+      "exact_match": false,
+      "shape": [
+        512,
+        512
+      ],
+      "different_texels": 2,
+      "reference_total": 180230,
+      "candidate_total": 180230,
+      "max_abs_difference": 18,
+      "first_difference": {
+        "v_row": 390,
+        "u_column": 180,
+        "reference": 0,
+        "candidate": 18
+      }
+    },
+    {
+      "suite": "contact",
+      "label": "plane_far_contact_15",
+      "exact_match": false,
+      "shape": [
+        512,
+        512
+      ],
+      "different_texels": 2,
+      "reference_total": 217209,
+      "candidate_total": 217209,
+      "max_abs_difference": 17,
+      "first_difference": {
+        "v_row": 138,
+        "u_column": 224,
+        "reference": 0,
+        "candidate": 17
+      }
+    },
+    {
+      "suite": "double",
+      "label": "plane_both_pentagon_06",
+      "exact_match": false,
+      "shape": [
+        512,
+        512
+      ],
+      "different_texels": 1,
+      "reference_total": 137411,
+      "candidate_total": 137407,
+      "max_abs_difference": 4,
+      "first_difference": {
+        "v_row": 87,
+        "u_column": 378,
+        "reference": 4,
+        "candidate": 0
+      }
+    },
+    {
+      "suite": "double",
+      "label": "plane_both_quad_near_09",
+      "exact_match": false,
+      "shape": [
+        512,
+        512
+      ],
+      "different_texels": 2,
+      "reference_total": 142318,
+      "candidate_total": 142318,
+      "max_abs_difference": 13,
+      "first_difference": {
+        "v_row": 421,
+        "u_column": 458,
+        "reference": 13,
+        "candidate": 0
+      }
+    },
+    {
+      "suite": "double",
+      "label": "plane_both_quad_far_06",
+      "exact_match": false,
+      "shape": [
+        512,
+        512
+      ],
+      "different_texels": 2,
+      "reference_total": 156958,
+      "candidate_total": 156958,
+      "max_abs_difference": 18,
+      "first_difference": {
+        "v_row": 282,
+        "u_column": 288,
+        "reference": 0,
+        "candidate": 18
+      }
+    },
+    {
+      "suite": "stress",
+      "label": "curve_narrow_aperture_00",
+      "exact_match": false,
+      "shape": [
+        512,
+        512
+      ],
+      "different_texels": 1,
+      "reference_total": 177493,
+      "candidate_total": 177492,
+      "max_abs_difference": 1,
+      "first_difference": {
+        "v_row": 182,
+        "u_column": 131,
+        "reference": 11,
+        "candidate": 10
+      }
+    },
+    {
+      "suite": "stress",
+      "label": "curve_narrow_aperture_05",
+      "exact_match": false,
+      "shape": [
+        512,
+        512
+      ],
+      "different_texels": 2,
+      "reference_total": 138669,
+      "candidate_total": 138670,
+      "max_abs_difference": 2,
+      "first_difference": {
+        "v_row": 252,
+        "u_column": 137,
+        "reference": 10,
+        "candidate": 12
+      }
+    }
+  ],
+  "archive_sha256": "eabd6ba80f56f907df0b66fd3c6557deee3174d07c4d08c8e386b522cac89dcb"
+}

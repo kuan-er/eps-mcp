@@ -1,0 +1,48 @@
+{
+  "initialize_ok": true,
+  "tools_discovered": [
+    "eps_status",
+    "eps_disk_project",
+    "eps_live_gun",
+    "eps_window_screenshot"
+  ],
+  "tools_call_ok": true,
+  "real_eps_data": true,
+  "registered_in_execution_environment": true,
+  "call_evidence": [
+    {
+      "tool": "eps_status",
+      "transcript": "mcp-protocol-transcript-step37.jsonl",
+      "is_error": false
+    },
+    {
+      "tool": "eps_disk_project",
+      "transcript": "mcp-protocol-transcript-step37.jsonl",
+      "is_error": false
+    },
+    {
+      "tool": "eps_disk_project",
+      "local_sha256": "C0BD26AC8800518B2629B9BC5359FBC5BFCBFA1B2B3AA918BF73E13BF69CEAA4",
+      "tool_sha256": "C0BD26AC8800518B2629B9BC5359FBC5BFCBFA1B2B3AA918BF73E13BF69CEAA4",
+      "match": true,
+      "path": "C:\\EPS-Verification\\EPS\\eps_probe\\eps-spray-basis-validation-20261104\\independent-audit\\gui-readback-copy\\EPS_Offline_20261102_audit.cmaproj"
+    },
+    {
+      "tool": "eps_live_gun",
+      "transcript": "mcp-protocol-transcript-step37.jsonl",
+      "is_error": false
+    },
+    {
+      "tool": "eps_window_screenshot",
+      "transcript": "mcp-protocol-transcript-step37.jsonl",
+      "is_error": false
+    }
+  ],
+  "limitations": [],
+  "config_path": "C:\\EPS-Verification\\.codex\\config.toml",
+  "protocol_client": "mcp SDK ClientSession over stdio",
+  "server_command": "C:\\EPS-Verification\\ANet\\eps-qxd-mcp-20261107\\.venv\\Scripts\\python.exe",
+  "server_args": [
+    "C:\\EPS-Verification\\ANet\\eps-qxd-mcp-20261107\\mcp\\server.py"
+  ]
+}

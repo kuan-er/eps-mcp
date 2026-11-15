@@ -1,0 +1,51 @@
+{
+  "profile_id": "eps_reconstruction_reference_v1",
+  "version": 1,
+  "status": "explicit software reference; no hardware calibration",
+  "provenance": "EPS operator float32 reconstruction and archived visibility/substep/accumulation rules; independent CPU renderer and deterministic clock",
+  "hardware_identity": null,
+  "calibrated": false,
+  "reconstruction": {
+    "camera_pixels": 64,
+    "atlas_texels_per_cell": 8,
+    "tick_interval_s": 0.05,
+    "pose_substeps": 1,
+    "fan_width_mm": 200,
+    "fan_height_mm": 200,
+    "near_plane_m": 0.001,
+    "far_plane_m": 0.6,
+    "max_ticks": 10000,
+    "max_runtime_s": 180,
+    "kernel_parameters": {
+      "SprayOkDistanceMeters": 0.3,
+      "EllipseAxisA": 0.95,
+      "EllipseAxisB": 0.9,
+      "Bifocality": 0.0,
+      "CrossStretch": 1.0,
+      "SoftEdgeRadiusSquared": 1.4,
+      "CoreUniformRadiusSquared": 0.7,
+      "CoreEdgeDrop": 0.12,
+      "OuterEdgeExponent": 2.0,
+      "TailWeight": 0.22,
+      "NearEllipseMinScale": 0.45,
+      "MaxIncidenceDeg": 85.0,
+      "IncidenceDropK": 0.65,
+      "FluxScale": 10.0,
+      "MaxDeltaPerHit": 18,
+      "PaintBackFaces": true,
+      "UseSegmentDistance": false,
+      "CameraHalfWidthMeters": 0.15,
+      "CameraHalfHeightMeters": 0.15,
+      "SegmentHalfDeltaRightMeters": 0.0,
+      "SegmentHalfDeltaUpMeters": 0.0,
+      "BaseFanHalfWidthMeters": 0.15,
+      "BaseFanHalfHeightMeters": 0.15
+    }
+  },
+  "fidelity_limits": [
+    "whole native scene equality unverified",
+    "hardware rasterization and asynchronous readback not reproduced",
+    "camera basis and configured sampling need installation-specific comparison"
+  ],
+  "output_unit": "relative"
+}

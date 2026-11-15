@@ -1,0 +1,27 @@
+{
+  "scenes": {
+    "native_spray_target": {
+      "program": "C:\\EPS-Worker\\Project\\Robots\\ER10-1100-1\\Storage\\storage\\rpl\\NativeBenchmark.XPL",
+      "journal_row_origin": "uv_v0",
+      "prim_path": "/World/Meshes/Piece_NativeSprayTarget_obj",
+      "mesh": "C:\\EPS-Worker\\Project\\WorkPieces\\NativeSprayTarget.obj",
+      "project": "C:\\EPS-Worker\\Project\\EPS_Offline_20261102_audit.cmaproj",
+      "solution": "C:\\EPS-Worker\\Project\\Solutions\\NativeSprayTarget.cmasln"
+    },
+    "native_spray_target_off": {
+      "program": "C:\\EPS-Worker\\Project\\Robots\\ER10-1100-1\\Storage\\storage\\rpl\\NativeBenchmarkOff.XPL",
+      "journal_row_origin": "uv_v0",
+      "prim_path": "/World/Meshes/Piece_NativeSprayTarget_obj",
+      "mesh": "C:\\EPS-Worker\\Project\\WorkPieces\\NativeSprayTarget.obj",
+      "project": "C:\\EPS-Worker\\Project\\EPS_Offline_20261102_audit.cmaproj",
+      "solution": "C:\\EPS-Worker\\Project\\Solutions\\NativeSprayTargetOff.cmasln"
+    }
+  },
+  "worker": {
+    "bridge_root": "C:\\EPS-Worker\\Bridge",
+    "executable": "C:\\EPS-Worker\\PaintStudio\\Efort PaintStudio.exe",
+    "blender": "C:\\EPS-Worker\\PaintStudio\\OpenUsdRender\\Blender\\blender.exe",
+    "module": "C:\\EPS-Worker\\PaintStudio\\Modules\\NativeRecordingProbe\\SprayBot.EpsNativeStateProbe.dll",
+    "module_sha256": "E7F803D886861FAE6E304D2974ED4F53692C1D95A0D232C6C7C19ADB3FD77235"
+  }
+}
